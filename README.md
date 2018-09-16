@@ -3,7 +3,7 @@ This website is intended to describe and promote the products of Silver Medal Br
 
 # Technical Information
 Ruby 2.4.1
-Rails 5.1
+Rails 5.2.1
 
 # Credits
 Website created and maintained by BoddySpargo Productions. (C) 2018 BoddySpargo Productions
