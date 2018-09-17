@@ -1,0 +1,135 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ 
+.text-light-highlight {
+    color: #FFFB26 !important;
+}
+
+.text-dark-primary {
+    color: #3082B2 !important;
+}
+
+.text-light-primary {
+    color: #C3C9CC !important;
+}
+
+.text-light-accent {
+    color: #FF373C !important;
+}
+
+.text-dark-accent {
+    color: #B24C4E !important;
+}
+ 
+.body {
+    font-size: 16px;
+}
+
+.css-bg-image {
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.bg-image {
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+}
+
+.bg-fixed {
+    position: fixed;
+}
+
+.front-content {
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+.abs {
+    position: absolute;
+}
+
+.vh-75 {
+    height: 75vh;
+}
+
+.vh-100 {
+    height: 100vh;
+}
+
+.font-15x {
+    font-size: 1.5em;
+}
+
+.font-2x {
+    font-size: 2em;
+}
+
+.font-3x {
+    font-size: 3em;
+}
+
+.font-4x {
+    font-size: 4em;
+}
+
+
+.font-5x {
+    font-size: 5em;
+}
+
+.zone {
+    position: relative;
+    overflow: hidden;
+    width: 100vw;
+}
+
+
+.zone.y-under-shadow,
+.zone.top-under-shadow,
+.zone.top-over-shadow {
+    width: calc(100vw + 30px);
+    left: -15px;
+}
+
+.top-under-shadow {
+    box-shadow: 0 -15px 0 15px white inset, 0 0 10px 4px rgba(0, 0, 0, 0.5) inset;
+}
+
+.top-over-shadow {
+    box-shadow: 0 -4px 10px 0 rgba(0, 0, 0, 0.5);
+}
+
+.bottom-under-shadow {
+    box-shadow: 0 15px 0 15px white inset, 0 0 10px 4px rgba(0, 0, 0, 0.5) inset;
+}
+
+.carousel-indicators li,
+.carousel-control-next, 
+.carousel-control-next, 
+.carousel-control-prev, 
+.carousel-control-prev{
+    background-color: rgba(0,0,0,0.5);
+}
+
+.carousel-indicators li.active,
+.carousel-control-next:focus, 
+.carousel-control-next:hover, 
+.carousel-control-prev:focus, 
+.carousel-control-prev:hover {
+    background-color: rgba(0,0,0,0.9);
+}
